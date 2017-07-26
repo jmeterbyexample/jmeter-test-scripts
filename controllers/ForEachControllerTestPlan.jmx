@@ -76,7 +76,7 @@
           <stringProp name="ForeachController.returnVal">foreachOutput</stringProp>
           <boolProp name="ForeachController.useSeparator">true</boolProp>
           <stringProp name="ForeachController.startIndex">0</stringProp>
-          <stringProp name="ForeachController.endIndex">6</stringProp>
+          <stringProp name="ForeachController.endIndex">4</stringProp>
         </ForeachController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/jmeter/${foreachOutput}" enabled="true">

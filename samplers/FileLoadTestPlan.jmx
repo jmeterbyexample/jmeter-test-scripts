@@ -34,8 +34,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/dt/fileUpload" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="/Users/jagdeepjain/bitbucket/sptuj/book/jmeter-scripts/samplers/fileload.txt" elementType="HTTPFileArg">
-                <stringProp name="File.path">/Users/jagdeepjain/bitbucket/sptuj/book/jmeter-scripts/samplers/fileload.txt</stringProp>
+              <elementProp name="C:\github\jmeter-test-scripts\samplers\fileload.txt" elementType="HTTPFileArg">
+                <stringProp name="File.path">C:\github\jmeter-test-scripts\samplers\fileload.txt</stringProp>
                 <stringProp name="File.paramname">myFile</stringProp>
                 <stringProp name="File.mimetype"></stringProp>
               </elementProp>
@@ -73,8 +73,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/dt/fileUpload" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="/Users/jagdeepjain/bitbucket/sptuj/book/jmeter-scripts/samplers/fileload.txt" elementType="HTTPFileArg">
-                <stringProp name="File.path">/Users/jagdeepjain/bitbucket/sptuj/book/jmeter-scripts/samplers/fileload.txt</stringProp>
+              <elementProp name="C:\github\jmeter-test-scripts\samplers\fileload.txt" elementType="HTTPFileArg">
+                <stringProp name="File.path">C:\github\jmeter-test-scripts\samplers\fileload.txt</stringProp>
                 <stringProp name="File.paramname">myFile</stringProp>
                 <stringProp name="File.mimetype">text/plain</stringProp>
               </elementProp>

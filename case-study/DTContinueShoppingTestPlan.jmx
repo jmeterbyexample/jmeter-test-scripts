@@ -17,8 +17,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">100</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">100</stringProp>
+        <stringProp name="ThreadGroup.num_threads">9</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1458058688000</longProp>
         <longProp name="ThreadGroup.end_time">1458058688000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -44,7 +44,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">jagdeepjain.local</stringProp>
+          <stringProp name="HTTPSampler.domain">localhost</stringProp>
           <stringProp name="HTTPSampler.port">8080</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1437,7 +1437,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/jagdeepjain/bitbucket/sptuj/book/jmeter-scripts/case-study/continue-shoping-ar.csv</stringProp>
+          <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - PerfMon Metrics Collector" enabled="true">
@@ -1481,38 +1481,20 @@
           <boolProp name="include_checkbox_state">false</boolProp>
           <boolProp name="exclude_checkbox_state">false</boolProp>
           <collectionProp name="metricConnections">
-            <collectionProp name="-638818765">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
+            <collectionProp name="-1190133611">
+              <stringProp name="-1204607085">localhost</stringProp>
               <stringProp name="1600768">4444</stringProp>
               <stringProp name="66952">CPU</stringProp>
               <stringProp name="0"></stringProp>
             </collectionProp>
-            <collectionProp name="1355434210">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
+            <collectionProp name="804119364">
+              <stringProp name="-1204607085">localhost</stringProp>
               <stringProp name="1600768">4444</stringProp>
               <stringProp name="-1993889503">Memory</stringProp>
               <stringProp name="0"></stringProp>
             </collectionProp>
-            <collectionProp name="1467774226">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
-              <stringProp name="1600768">4444</stringProp>
-              <stringProp name="-274342153">Network I/O</stringProp>
-              <stringProp name="0"></stringProp>
-            </collectionProp>
-            <collectionProp name="-638818765">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
-              <stringProp name="1600768">4444</stringProp>
-              <stringProp name="66952">CPU</stringProp>
-              <stringProp name="0"></stringProp>
-            </collectionProp>
-            <collectionProp name="1355434210">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
-              <stringProp name="1600768">4444</stringProp>
-              <stringProp name="-1993889503">Memory</stringProp>
-              <stringProp name="0"></stringProp>
-            </collectionProp>
-            <collectionProp name="1467774226">
-              <stringProp name="-2036329579">jagdeepjain.local</stringProp>
+            <collectionProp name="916459380">
+              <stringProp name="-1204607085">localhost</stringProp>
               <stringProp name="1600768">4444</stringProp>
               <stringProp name="-274342153">Network I/O</stringProp>
               <stringProp name="0"></stringProp>

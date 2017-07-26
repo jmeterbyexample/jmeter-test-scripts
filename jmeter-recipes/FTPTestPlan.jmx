@@ -40,14 +40,14 @@
         <FTPSampler guiclass="FtpTestSamplerGui" testclass="FTPSampler" testname="FTP Request" enabled="true">
           <stringProp name="FTPSampler.server"></stringProp>
           <stringProp name="FTPSampler.port"></stringProp>
-          <stringProp name="FTPSampler.filename">/mydata/cormorant.jpg</stringProp>
-          <stringProp name="FTPSampler.localfilename">/misc/cormorant.jpg</stringProp>
+          <stringProp name="FTPSampler.filename">/ftp.jpg</stringProp>
+          <stringProp name="FTPSampler.localfilename">C:\temp\ftp.jpg</stringProp>
           <stringProp name="FTPSampler.inputdata"></stringProp>
           <boolProp name="FTPSampler.binarymode">true</boolProp>
           <boolProp name="FTPSampler.saveresponse">false</boolProp>
           <boolProp name="FTPSampler.upload">false</boolProp>
-          <stringProp name="ConfigTestElement.username">my_jmeter_user</stringProp>
-          <stringProp name="ConfigTestElement.password">sherkhan</stringProp>
+          <stringProp name="ConfigTestElement.username">your_user_name</stringProp>
+          <stringProp name="ConfigTestElement.password">password</stringProp>
         </FTPSampler>
         <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">

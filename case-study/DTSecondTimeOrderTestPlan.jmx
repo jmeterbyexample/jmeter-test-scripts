@@ -849,8 +849,8 @@
           <boolProp name="include_checkbox_state">false</boolProp>
           <boolProp name="exclude_checkbox_state">false</boolProp>
           <collectionProp name="metricConnections">
-            <collectionProp name="-912057670">
-              <stringProp name="1505998205">127.0.0.1</stringProp>
+            <collectionProp name="-1190133611">
+              <stringProp name="-1204607085">localhost</stringProp>
               <stringProp name="1600768">4444</stringProp>
               <stringProp name="66952">CPU</stringProp>
               <stringProp name="0"></stringProp>
